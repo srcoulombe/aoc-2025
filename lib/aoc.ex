@@ -1,18 +1,7 @@
 defmodule AOC do
-  @moduledoc """
-  Documentation for `AOC`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> AOC.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def run(module, args) do
+    module_name = Module.concat(__MODULE__, module)
+    IO.puts("Running #{module_name}")
+    module_name.run(args)
   end
 end
