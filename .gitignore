@@ -27,3 +27,6 @@ aoc_2025-*.tar
 
 # Test files
 /fixtures/
+
+# Input files
+/puzzle_inputs/
