@@ -1,4 +1,4 @@
-defmodule AOC.Day2Part2 do
+defmodule AOC.Puzzle2.Part2 do
   alias AOC.FileParsing
 
   def run(path) do
